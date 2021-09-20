@@ -35,11 +35,10 @@ namespace ChangedMod.NPCs
         }
 
         //to set a tail yourself do  npc.SetTail(typeof(LeopardTail));
-        //and then do  npc.TailActive(true);  each update to keep it active
 
         //public override bool SafeAI()//use this instead of AI()
         //{
-        //    return true;//return true to disable the tail
+        //    return true;//return true to disable the tail (npc.TailActive(SafeAI()) also works as a way to disable/enable a npc's tail, just make sure its set first)
         //}
     }
 }
