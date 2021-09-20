@@ -6,7 +6,7 @@ using TailLib;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ChangedMod.Content.Tails
+namespace TailLibExample.Tails
 {
     public class BannerTail : Tailbase
     {

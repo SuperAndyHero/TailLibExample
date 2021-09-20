@@ -2,13 +2,12 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using TailLib;
-using ChangedMod.Content.Tails;
 
-namespace ChangedMod.NPCs
+namespace TailLibExample.NPCs
 {
     public class PartyZombie : TailNpc//this is the example mod zombie but with a tail, you dont have to extend from tailnpc if you set it yourself (see below)
     {
-        public PartyZombie() : base(typeof(LeopardTail)) { }
+        public PartyZombie() : base(typeof(Tails.LeopardTail)) { }
 
         public override void SetStaticDefaults()
         {

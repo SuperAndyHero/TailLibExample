@@ -7,7 +7,7 @@ using Terraria;
 using Terraria.ModLoader;
 //using ChangedMod.Core;
 
-namespace ChangedMod.Content.Tails
+namespace TailLibExample.Tails
 {
     public class LeopardTail : Tailbase
     {
