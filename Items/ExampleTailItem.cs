@@ -22,11 +22,11 @@ namespace TailLibExample.Items
 
         public override void SetDefaults()
         {
-            item.width = 18;
-            item.height = 18;
-            item.value = 1000;
-            item.accessory = true;
-            item.rare = ItemRarityID.Green;
+            Item.width = 18;
+            Item.height = 18;
+            Item.value = 1000;
+            Item.accessory = true;
+            Item.rare = ItemRarityID.Green;
         }
 
         //use this instead of UpdateEquip()

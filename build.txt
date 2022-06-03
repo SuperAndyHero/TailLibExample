@@ -1,10 +1,10 @@
 displayName = Example Tail Mod
 author = SuperAndyHero
-version = 1.01
+version = 2.0
 modReferences = TailLib
 homepage = https://github.com/SuperAndyHero/TailLibExample
 hideCode = false
 hideResources = false
 includeSource = true
 includePDB = true
-buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, Properties\*
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, Properties\*, .git\*
