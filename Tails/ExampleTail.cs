@@ -16,10 +16,10 @@ namespace TailLibExample.Tails
 
         public override int VertexCount => 9;
 
-        public override int Width => 9;//the horizontal width starting at the vertex chain
+        public override float Width => 9;//the horizontal width starting at the vertex chain
 
-        public override int VertexDistance => 9;//base distance between each vertex
-        public override int[] VertexDistances => new int[] { 11, 10, 10, 9, 9, 9, 9, 10, 9 };//for setting the distances between each vertex
+        public override float VertexDistance => 9;//base distance between each vertex
+        public override float[] VertexDistances => new float[] { 11, 10, 10, 9, 9, 9, 9, 10, 9 };//for setting the distances between each vertex
 
         public override int PhysicsRepetitions => 5;//how many times the physics should be run, keep this between 3 and 10, more repetitions will make it snappier but will use more performace
         public override float VertexDrag => 1.03f;//how much drag the tail will experiance, minimum is 1.0f

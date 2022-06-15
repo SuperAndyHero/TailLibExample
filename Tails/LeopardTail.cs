@@ -19,8 +19,8 @@ namespace TailLibExample.Tails
         public override Vector2 TexPosOffset => new Vector2(0, -3f);
         public override Vector2 TexSizeOffset => new Vector2(8f, 2.5f);
         public override int VertexCount => 7;
-        public override int VertexDistance => 5;
-        public override int Width => 8;
+        public override float VertexDistance => 5;
+        public override float Width => 8;
         public override int PhysicsRepetitions => 5;
         public override float VertexDrag => 1.15f;
 
